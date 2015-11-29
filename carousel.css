@@ -55,14 +55,12 @@ body {
   .transition(8s ease-in-out left);
 }
 .carousel-inner > .item > img {
-  /* position: absolute; */
-  /* top: 0; */
-  /* left: 0; */
-    /* min-width: 100%; */
     position: fixed;
     top:50px;
-  height: 300px;
-  width: auto;
+    /* for small sizes, scale based on width */
+    height: auto;
+    width: 100%;
+    max-width: none;
 }
 
 
@@ -129,6 +127,14 @@ body {
 
   .featurette-heading {
     font-size: 50px;
+  }
+  .carousel-inner > .item > img {
+    top:50px;
+    /* for large sizes, scale based on height */
+    height: 300px;
+    min-height: 300px;
+    width: auto;
+    max-width: none;
   }
 }
 
