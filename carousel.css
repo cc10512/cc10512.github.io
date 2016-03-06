@@ -33,6 +33,10 @@ body {
   width: auto;
 }
 
+.navbar-nav {
+    float: right;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
