@@ -1,0 +1,168 @@
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+
+.profile_header * {
+    text-align: center
+}
+
+.cover_photo {
+    position: relative;
+    min-height: 200px;
+    background: #b9c1c7;
+    margin-bottom: -104px
+}
+
+.profile_header.with_cover {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    padding-bottom: 150px;
+}
+
+.profile_header.with_cover .cover_photo {
+    position: relative;
+    overflow: hidden;
+    height: 300px
+}
+
+.profile_header.with_cover .cover_photo .image {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.container .carousel-caption .signature {
+    text-align: right;
+    font-style: italic;
+}
+
+.profile_header h1 {
+    font-size: 30px;
+    margin: 0 0 10px 0
+}
+
+.profile_header .profile_buttons {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 50px 0 0;
+    margin-bottom: 30px;
+    text-align: right
+}
+
+.profile_header .profile_buttons .wrapper {
+    display: inline-block;
+    font-size: 0
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+.container .marketing {
+    margin-top: 50px;
+}
+
+.marketing .col-md-4 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.marketing h2 {
+  font-weight: normal;
+  text-align: center;
+}
+.marketing .col-md-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.marketing .img-border {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eeeeee;
+}
+
+.marketing .centered {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+    width: auto;
+  }
+  .navbar-nav {
+    float: right;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
