@@ -1,0 +1,6 @@
+navbar_entries:
+  - title: Home
+    url: https://www.cascaval.us/calin
+
+  - title: Contact
+    url: mailto:cascaval@acm.org
