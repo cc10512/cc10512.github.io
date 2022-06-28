@@ -105,6 +105,7 @@ p, strong, b, em, small, li, hr, table, figcaption {
 }
 hr {
     border-top: 1px solid var(--text);
+    border-bottom: 0px;
 }
 .highlight, pre code, blockquote {
   border-radius: 0.5em;
