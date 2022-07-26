@@ -1,0 +1,29 @@
+---
+layout: post
+title: The Move
+author: Călin Cașcaval
+---
+
+Moving house across continents is not an easy feat: although we took the opportunity to somewhat slim down when we moved houses in Oct. 2020, it was too easy to just "take it" when we mved one mile across town! This time however, we agreed that it makes sense to haul only the minimum number of things we want to keep. We'll be moving withing New Zealand as well until we find our place, and really, do we need to keep the paper credit card statements from the '90s? 
+
+We contacted a few companies for moving and their first question was "what inventory are you moving?". So we sat down with a spreadsheed and sorted through our _stuff_: things we move, things we keep, and things we let go. For all the papers, we went full digital, so both our scanners did extra duty for a few months! Same thing with our photos and films. As for letting go of other things ... not so easy. Anca has quite a number of stories to tell from talking to charities and other organizations that are geared toward helping the homeless but take only new stuff. What finally worked was a combination of charities, neighborhood groups such as [buy nothing](link){:target="_blank"} and [Free Cycle](link){:target="_blank"}, and Facebook marketplace -- turns out that for somethings you just have to put a price on in order to get attention! And so we kept unloading before the movers came, and then they came and loaded the stuff we said we'll take, and we were still left with half a house full of things! In the end, it was Anca's friends from the garden club who stepped in and helped us clean up everything else.
+
+It has been our plan all along to fly out from Seattle and spend some time with him and Parley before leaving. And thus, after yet another day of sorting, packing, and cleaning, we packed a car + trailer full of luggage (skis and boots included!) and stuff, and started toward Seattle.
+![Leaving Palo Alto](/assets/images/20220711_PaloAlto.jpg){:class="img-responsive"}
+
+We detoured through Sacramento to drop a few things for a friend, and were bummed that at 8pm it was still 96℉ (35.5℃ -- yes, we're moving back to the metric system)! The heat wave continued for the next couple of days until we reached Vancouver, WA.
+![Heathman Lodge](/assets/images/20220713_HeathmanLodge.jpg){:class="img-responsive"}
+
+And so we spent 10 days in Seattle, spending time with Dan, continuing to pack and re-pack our bags to at least attempt to fit the limits, and selling our car. We kayaked on Union Lake,
+![Union Lake](/assets/images/20220723_UnionLake.jpg){:class="img-responsive"}
+explored the Deception Pass State Park,
+![Deception Pass](/assets/images/20220722_DeceptionPass.jpg){:class="img-responsive"}
+and the Ballard Locks.
+![Ballard Locks](/assets/images/20220723_BallardLocks.jpg){:class="img-responsive"}
+
+Beside a few days of working remotely and my regrets that I can not keep the car, these past few days really felt as a vacation!
+
+And off we are!
+![into the sunset](/assets/images/20220723_BallardSunset.jpg){:class="img-responsive"}
+
+Obviously not on a boat, but to the West :)
