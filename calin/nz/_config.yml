@@ -7,8 +7,9 @@ permalink: /:slug
 
 favicon: "assets/images/Silver_fern_flag.svg"
 
-#theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
-remote_theme: abhinavs/moonwalk
+# if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
+theme: moonwalk
+# remote_theme: abhinavs/moonwalk
 
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
