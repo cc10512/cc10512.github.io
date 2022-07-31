@@ -1,18 +1,18 @@
 title: New Zealand Journey
 author: Călin Caşcaval
-url: https://www.cascaval.us/calin/nz
+url: https://www.cascaval.us/calin
 description: > # description of the site (multiple lines allowed)
   A record of our adventures in Aotearoa (the land of the long white cloud).
 permalink: /:slug
 
-favicon: "assets/images/Silver_fern_flag.svg"
+favicon: "/assets/images/blog/Silver_fern_flag.svg"
 
 # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
 theme: moonwalk
 # remote_theme: abhinavs/moonwalk
 
 theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
+  appearance: "dark" # can be "light", "dark" or "auto"
   appearance_toggle: true # if appearance can be switched by user
   back_home_text: "Home" # customize text for homepage link in post layout
   date_format: "%b %d, %Y" # customize how date is formatted

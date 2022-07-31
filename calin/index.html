@@ -1,3 +1,6 @@
+---
+data-theme: dark
+---
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,7 +12,7 @@
     <meta name="description" content="Calin's page">
     <meta name="author" content="Calin Cascaval">
     <title>C&#259;lin's Site</title>
-    <base href="https://www.cascaval.us/calin/" target="_blank">
+    <base href="http://localhost:4000/" target="_blank">
 
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +23,7 @@
       crossorigin="anonymous">
     -->
     <!-- Custom styles for this template -->
-    <link href="header.css" rel="stylesheet">
+    <link href="/assets/css/header.css" rel="stylesheet">
   </head>
 
   <body>
@@ -41,6 +44,7 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="https://www.cascaval.us">Home</a></li>
                 <li><a href="mailto:cascaval@acm.org">Contact</a></li>
+				<!-- <li>{% include toggle_theme_button.html %}</li> -->
               </ul>
             </div>
           </div>
@@ -51,7 +55,7 @@
     <div class='profile_header with_cover'>
       <div class='cover_photo'>
         <div class='cover_wrap'>
-          <div class='image' style='background-image: url(images/TahoeSunset_s.jpg)'>
+          <div class='image' style='background-image: url(/assets/images/calin/TahoeSunset_s.jpg)'>
           </div>
         </div>
         <div class="container">
@@ -90,7 +94,8 @@
           is actively <a href="cv.html#service">participating</a> in
           the community through student mentoring, academic
           collaborations, and conference organization.</p>
-          <p><a class="btn btn-default" href="resume.pdf" role="button">Resume (PDF) &raquo;</a>
+          <p><a class="btn btn-default" href="resume.pdf"
+			    role="button">Resume (PDF) &raquo;</a>
             <a class="btn btn-default" href="cv.html" role="button">Full CV &raquo;</a></p>
         </div><!-- /.col-md-4 -->
         <div class="col-md-4">
@@ -103,21 +108,21 @@
 
       <div class="row">
         <div class="col-md-4 centered">
-          <img class="img-circle" src="images/Family_s.jpg" alt="family"
-               width="140" height="140" />
+          <img class="img-circle" src="/assets/images/calin/Family_s.jpg"
+		       alt="family" width="140" height="140" />
           <h2>Family</h2>
           <p>Pictures for the family (password protected).</p>
           <p><a class="btn btn-default" href="https://poze.cascaval.us/" role="button">View details &raquo;</a></p>
         </div><!-- /.col-md-4 -->
         <div class="col-md-4 centered">
-          <img class="img-circle" src="images/Cameras_s.jpg" alt="photo"
-               width="140" height="140" />
+          <img class="img-circle" src="/assets/images/calin/Cameras_s.jpg"
+			   alt="photo" width="140" height="140" />
           <h2>Photography</h2>
           <p>A sample of my shared photographs on 500px.</p>
           <p><a class="btn btn-default" href="http://500px.com/CalinCascaval" role="button">View details &raquo;</a></p>
         </div><!-- /.col-md-4 -->
         <div class="col-md-4 centered">
-          <img class="img-circle" src="images/GadValley_s.jpg"
+          <img class="img-circle" src="/assets/images/calin/GadValley_s.jpg"
                alt="outdoors" width="140" height="140" />
           <h2>Outdoors</h2>
           <p class="centered">We enjoy nature in all seasons.</p>
@@ -125,29 +130,29 @@
         </div><!-- /.col-md-4 -->
       </div><!-- /.row -->
 
-<!--
       <div class="row">
         <div class="col centered">
           <p><a href="https://en.wikipedia.org/wiki/Silver_fern_flag#/media/File:Silver_fern_flag.svg">
               <img class="img-circle"
-                   src="nz/assets/images/Silver_fern_flag.svg"
+                   src="/assets/images/blog/Silver_fern_flag.svg"
                    alt="Silver Fern flag by Bamse under CC BY-SA 3.0"
                    width="140" />
           </a></p>
           <h2>New Zealand Journey</h2>
           <p class="centered">A blog of our new adventures on the other side
           of the world.</p>
-          <p class="centered"><a class="btn btn-default" href="nz/index.html" role="button">View details &raquo;</a></p>
+          <p class="centered"><a class="btn btn-default" href="blog.html" role="button">View details &raquo;</a></p>
         </div>
       </div>
--->
+
       <hr class="featurette-divider">
       <footer>
-      <p>&copy; 1993-2021 Calin Cascaval &middot; <a href="mailto:cascaval@acm.org">Contact</a></p>
+      <p>&copy; 1993-2021 Călin Cașcaval &middot; <a href="mailto:cascaval@acm.org">Contact</a></p>
       </footer>
 
     </div><!-- /.container -->
 
+	{% include toggle_theme_js.html %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!--
