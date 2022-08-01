@@ -9,9 +9,9 @@ data-theme: dark
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head
     content must come *after* these tags -->
-    <meta name="description" content="Calin's page">
-    <meta name="author" content="Calin Cascaval">
-    <title>C&#259;lin's Site</title>
+    <meta name="description" content="Călin's page">
+    <meta name="author" content="{{ site.author }}">
+    <title>Călin's Site</title>
     <base href="https://www.cascaval.us/" target="_blank">
 
     <!-- Bootstrap core CSS -->
@@ -43,7 +43,7 @@ data-theme: dark
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="https://www.cascaval.us">Home</a></li>
-                <li><a href="mailto:cascaval@acm.org">Contact</a></li>
+                <li><a href="mailto:{{ site.email }}">Contact</a></li>
 				<!-- <li>{% include toggle_theme_button.html %}</li> -->
               </ul>
             </div>
@@ -149,7 +149,7 @@ data-theme: dark
 
       <hr class="featurette-divider">
       <footer>
-      <p>&copy; 1993-2022 Călin Cașcaval &middot; <a href="mailto:cascaval@acm.org">Contact</a></p>
+      <p>&copy; 1993-2022 {{ site.author }} &middot; <a href="mailto:{{ site.email }} ">Contact</a></p>
       </footer>
 
     </div><!-- /.container -->

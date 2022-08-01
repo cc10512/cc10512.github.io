@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Cașcaval's main page">
-    <meta name="author" content="Călin Cașcaval">
+    <meta name="author" content="{{ site.author }}">
     <!-- <link rel="icon" href="../../favicon.ico"> -->
 
     <title>The Cascaval Family's Site</title>
@@ -41,7 +41,7 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="mailto:calin@cascaval.us">Contact</a></li>
+                <li><a href="mailto:{{ site.email }}">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -192,7 +192,7 @@
       <!-- FOOTER -->
       <footer>
       <!--   <p class="pull-right"><a href="#">Back to top</a></p> -->
-      <p>&copy; 2015-2018 Călin Cașcaval &middot; <a href="mailto:calin@cascaval.us">Contact</a></p>
+      <p>&copy; 2015-2018  {{ site.author }} &middot; <a href="mailto:{{ site.email }}">Contact</a></p>
       </footer>
 
     </div><!-- /.container -->
