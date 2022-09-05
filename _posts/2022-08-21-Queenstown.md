@@ -4,11 +4,11 @@ title: Queenstown
 author: Călin Cașcaval
 ---
 
-Queenstown, on the shore of lake Wakatipu is the South Island capital of tourism. Ski slopes, glacier lakes, tracks (New Zeeland for trails) abound. The town is famous for its air quality, good restaurants, and amazing views. We came to Queenstown as part of a Google office retreat; and after spending two days eating and socializing, I was ready for some activities to pay for all the extra calories.
+[Queenstown](https://www.queenstownnz.co.nz), on the shore of lake Wakatipu is the South Island capital of tourism. Ski slopes, glacier lakes, tracks (New Zeeland English for trails) abound. The town is famous for its air quality, good restaurants, and amazing views. We came to Queenstown as part of a Google office retreat; and after spending two days eating and socializing, I was ready for some activities to pay for all the extra calories.
 
 ![Cheesery]({{"/assets/images/blog/20220818_Gibbston.jpg" | relative_url}}){:class="img-responsive"}
 
-Although it rain cats and dogs the whole day on Thu, we came to try the skiing, so we did. There are 3 ski resorts within 50km (35 miles) of Queenstown. We picked the closest one [The Remarkables](...) both because of its proximity and because it seemed to have some challenging terrain. The views are truly remarkable; the skiing, not quite. I expect that with a lot more snow, there are some nice runs to have, but the season has been light on snow and after a day of rain the slopes were either slushy or icy.
+Although it rained cats and dogs the whole day on Thursday, because we lugged our skis across the Pacific, Friday we went skiing. There are 3 ski resorts within 50km (35 miles) of Queenstown. We picked the closest one, [The Remarkables](https://www.theremarkables.co.nz), both because of its proximity and because it seemed to have some challenging terrain. The views are truly remarkable; the skiing, not quite. I expect that with more snow, there are some nice runs to be had, but the season has been light on snow and after a day of rain the slopes were either slushy or icy.
 
 ![Lake Hayes from the road to The Remarkables]({{"/assets/images/blog/20220819/Remarkables_01.jpg" | relative_url}}){:class="img-responsive"}
 
@@ -18,11 +18,14 @@ The best part was that we got Victor to ski with us pretty much the whole day, a
 
 ![Top of the ski lift]({{"/assets/images/blog/20220819/Remarkables_03.jpg" | relative_url}}){:class="img-responsive"}
 
-![Mud]({{"/assets/images/blog/20220819/Remarkables_04.jpg" | relative_url}}){:class="img-responsive"}
+![Remarkables: valley view]({{"/assets/images/blog/20220819/Remarkables_04.jpg" | relative_url}}){:class="img-responsive"}
 
-The worst part, the car park was a mud pit! We got mud all over us and the car.
+The worst part, the car park was a mud pit! We got mud all over us and the rental.
 
-Given that we are spoiled by our skiing experince in Utah and Tahoe, we decided to switch gears and go hiking. While the higher mountains are snow capped, Queenstown itself and the valleys surrounding it, were clear, with temperatures around 10℃ (50℉). A Google colleague tipped Rob about the Moke Lake track. The drive to the track head was quite exciting, as the paved road eventually ended, and we continued on a 1 lane grave road, up into a secluded valley, surrounded by sheep grazing on the versants, with snow capped mountains at both ends of the valley!
+![Mud]({{"/assets/images/blog/20220819/Remarkables_05.jpg" | relative_url}}){:class="img-responsive"}
+
+
+Given that we are spoiled by our skiing experince in Utah and Tahoe, we decided to switch gears and go hiking. While the higher mountains are snow capped, Queenstown itself and the valleys surrounding it were clear, with temperatures around 10℃ (50℉). A Google colleague tipped Rob about the [Moke Lake track](https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/queenstown-area/things-to-do/moke-lake-loop-track/). The drive to the track head was quite exciting, as the paved road eventually ended and we continued on a 1 lane grave road, up into a secluded valley, surrounded by sheep grazing on the versants, with snow capped mountains at both ends of the valley!
 
 ![Road to Moke Lake]({{"/assets/images/blog/20220820/MokeLake_00.jpg" | relative_url}}){:class="img-responsive"}
 
