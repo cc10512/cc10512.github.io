@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A walk around the neighborhood
-author: Călin Cașcaval
+author: Călin
 ---
 
 Everyday we marvel at the beauty right outside our windows.

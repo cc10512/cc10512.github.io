@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Queenstown
-author: Călin Cașcaval
+author: Călin
 ---
 
 [Queenstown](https://www.queenstownnz.co.nz), on the shore of lake Wakatipu is the South Island capital of tourism. Ski slopes, glacier lakes, tracks (New Zeeland English for trails) abound. The town is famous for its air quality, good restaurants, and amazing views. We came to Queenstown as part of a Google office retreat; and after spending two days eating and socializing, I was ready for some activities to pay for all the extra calories.
