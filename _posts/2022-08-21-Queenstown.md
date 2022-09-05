@@ -14,7 +14,7 @@ Although it rained cats and dogs the whole day on Thursday, because we lugged ou
 
 ![Selfie with a view]({{"/assets/images/blog/20220819/Remarkables_02.jpg" | relative_url}}){:class="img-responsive"}
 
-The best part was that we got Victor to ski with us pretty much the whole day, all the way down from the top of the mountain. 
+The best part was that we got Victor to ski with us pretty much the whole day, all the way down from the top of the mountain.
 
 ![Top of the ski lift]({{"/assets/images/blog/20220819/Remarkables_03.jpg" | relative_url}}){:class="img-responsive"}
 
@@ -25,11 +25,11 @@ The worst part, the car park was a mud pit! We got mud all over us and the renta
 ![Mud]({{"/assets/images/blog/20220819/Remarkables_05.jpg" | relative_url}}){:class="img-responsive"}
 
 
-Given that we are spoiled by our skiing experince in Utah and Tahoe, we decided to switch gears and go hiking. While the higher mountains are snow capped, Queenstown itself and the valleys surrounding it were clear, with temperatures around 10℃ (50℉). A Google colleague tipped Rob about the [Moke Lake track](https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/queenstown-area/things-to-do/moke-lake-loop-track/). The drive to the track head was quite exciting, as the paved road eventually ended and we continued on a 1 lane grave road, up into a secluded valley, surrounded by sheep grazing on the versants, with snow capped mountains at both ends of the valley!
+Given that we are spoiled by our skiing experince in Utah and Tahoe, we decided to switch gears and go hiking. While the higher mountains are snow capped, Queenstown itself and the valleys surrounding it were clear, with temperatures around 10℃ (50℉). A Google colleague tipped Robert about the [Moke Lake track](https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/queenstown-area/things-to-do/moke-lake-loop-track/). The drive to the track head was quite exciting, as the paved road eventually ended and we continued on a 1 lane grave road, up into a secluded valley, surrounded by sheep grazing on the versants, with snow capped mountains at both ends of the valley!
 
 ![Road to Moke Lake]({{"/assets/images/blog/20220820/MokeLake_00.jpg" | relative_url}}){:class="img-responsive"}
 
-The track runs around the lake and it is absolutely gorgeous. 
+The track runs around the lake and it is absolutely gorgeous.
 
 ![Moke Lake]({{"/assets/images/blog/20220820/MokeLake_01.jpg" | relative_url}}){:class="img-responsive"}
 
@@ -84,4 +84,3 @@ Eventually it started to rain on our descent, lightly and did not go through the
 ![Lake Hayes]({{"/assets/images/blog/20220821/LakeHayes_11.jpg" | relative_url}}){:class="img-responsive"}
 
 ![Lake Hayes]({{"/assets/images/blog/20220821/LakeHayes_14.jpg" | relative_url}}){:class="img-responsive"}
-
