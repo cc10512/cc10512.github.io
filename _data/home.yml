@@ -4,3 +4,7 @@ navbar_entries:
 
   - title: Contact
     url: mailto:cascaval@acm.org
+
+  - title: RSS (Atom)
+    url: https://www.cascaval.us/feed.xml
+    icon: /assets/images/RSS.png

@@ -15,6 +15,8 @@
   {% feed_meta %}
 
   <link rel="shortcut icon" type="image/x-icon" href="/{{ site.favicon | relative_url }}" />
+  <link href="/feed.xml" rel="alternate" type="application/atom+xml" 
+        title="Latest {{ site.feed_items }} blog posts (atom)">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
   {% if site.theme_config.appearance_toggle %}
     {% include toggle_theme_js.html %}
