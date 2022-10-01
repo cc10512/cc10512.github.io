@@ -59,7 +59,7 @@ And once we reached the top ...
 
 ![Top views]({{"/assets/images/blog/20220917/AoteaTrack_46.jpg" | relative_url}}){:class="img-responsive"}
 
-As if we did not have enough stairs, 3 of us decided to take a detour to Windy Canyon, for another couple of hours of stairs, tottaly worth it!
+As if we did not have enough stairs, 3 of us decided to take a detour to Windy Canyon, for another couple of hours of stairs, totally worth it!
 
 ![More stairs]({{"/assets/images/blog/20220917/AoteaTrack_62.jpg" | relative_url}}){:class="img-responsive"}
 
