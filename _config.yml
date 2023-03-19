@@ -10,7 +10,7 @@ feed_items: 5
 feed_update_period: daily
 feed_update_frequency: 1
 
-favicon: "/assets/images/blog/Silver_fern_flag.svg"
+favicon: "assets/images/blog/Silver_fern_flag.svg"
 
 # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
 # theme: moonwalk
