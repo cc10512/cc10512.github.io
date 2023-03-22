@@ -201,3 +201,14 @@ p code, li code {
     color: var(--links);
   }
 }
+
+// bootstrap image classes
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
