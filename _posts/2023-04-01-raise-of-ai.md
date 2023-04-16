@@ -14,8 +14,15 @@ author: Călin
 - what does it mean to be responsible when people are as gullible as they are? ChatGPT task rabbit example.
 
   - [Why ChatGPT should be considered a malevolent AI – and be destroyed](https://www.theregister.com/2023/03/02/chatgpt_considered_harmful/)
-  -
-  -
+
+Beginners only
+
+  - https://www.fastcompany.com/90863983/chatgpt-medical-diagnosis-emergency-room
+
+Lies, damn lies
+
+  - https://www.theguardian.com/business/2023/apr/06/forbes-30-under-30-tech-finance-prison
+
 ## Actions
 
  - activism: the [open letter](https://futureoflife.org/open-letter/pause-giant-ai-experiments/)
