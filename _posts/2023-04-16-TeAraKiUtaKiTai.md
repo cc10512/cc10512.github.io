@@ -31,7 +31,7 @@ The path is a shared use track for both pedestrians and cyclists. It is an exqui
 It crosses Orakei Bay as a bridge and you walk over water with unencumbered views of the bay.
 
 {% include image url="/assets/images/blog/20230416/Orakei_02.jpg"
-     caption="Orakei Bay"
+     caption="Orakei Basin"
      class="img-responsive"
 %}
 
@@ -50,7 +50,7 @@ Birds, horses, and lush vegetation dot the landscape.
 %}
 
 {% include image url="/assets/images/blog/20230416/Orakei_09.jpg"
-     caption="Glen Innes: Reeds in the wind"
+     caption="Glen Innes: pampas grass in the wind"
      class="img-responsive"
 %}
 
