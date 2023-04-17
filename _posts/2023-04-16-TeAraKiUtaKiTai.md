@@ -10,7 +10,7 @@ author: Călin
 %}
 This weekend the weather was quite windy (40-50 km/h) and cloudy. So we decided to stay around the city and explore one of its newest additions: [Te Ara ki Uta ki Tai](https://www.nzta.govt.nz/about-us/news-and-media/video-gallery/exploring-te-ara-ki-uta-ki-tai-glen-innes-to-tamaki-drive-shared-path/). We walked the track from Orakei to Colin Maiden Park.
 
-The path is a shared use track for both pedestrians and cyclists. It is an exquisite build, a wide path winding through nature in the middle of the city!
+The path is a shared use track for both pedestrians and cyclists. It is an exquisite build, a wide path winding through nature in the middle of the city! And has exits toward various roads, some look highway grade.
 
 {% include image url="/assets/images/blog/20230416/Orakei_13.jpg"
      caption="We started next to Orakei"
@@ -18,12 +18,12 @@ The path is a shared use track for both pedestrians and cyclists. It is an exqui
 %}
 
 {% include image url="/assets/images/blog/20230416/Orakei_12.jpg"
-     caption="The path close to Kohimarama Rd."
+     caption="Close to Kohimarama Rd. exit"
      class="img-responsive"
 %}
 
 {% include image url="/assets/images/blog/20230416/Orakei_11.jpg"
-     caption="The path toward Glen Innes"
+     caption="Around Glen Innes"
      class="img-responsive"
 %}
 
@@ -49,14 +49,14 @@ Birds, horses, and lush vegetation dot the landscape.
 %}
 
 {% include image url="/assets/images/blog/20230416/Orakei_09.jpg"
-     caption="Glen Innes: pampas grass in the wind"
+     caption="Glen Innes to Point England: pampas grass in the wind"
      class="img-responsive"
 %}
 
 And [Maori pouwhenua](https://en.wikipedia.org/wiki/Pouwhenua) protect the path.
 
 {% include image url="/assets/images/blog/20230416/Orakei_07.jpg"
-     caption="Maori art"
+     caption="Track end at Colin Maiden Park: Maori art"
      class="img-responsive"
 %}
 

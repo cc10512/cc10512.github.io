@@ -12,10 +12,6 @@ feed_update_frequency: 1
 
 favicon: "www.cascaval.us/assets/images/blog/Silver_fern_flag.svg"
 
-# if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
-# theme: moonwalk
-remote_theme: abhinavs/moonwalk
-
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
   appearance_toggle: true # if appearance can be switched by user
