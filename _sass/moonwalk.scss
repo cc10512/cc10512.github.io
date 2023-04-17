@@ -58,11 +58,45 @@ blockquote {
   p { margin: 0; }
 }
 
+.float-img {
+  display: inline-block;
+  max-width: 300px;
+
+  // floated images need to resize the caption as well.
+  .photo-caption {
+      text-align: center;
+      overflow: hidden;
+      // margin-top: 0px;
+      max-width: 300px;
+      box-sizing: border-box;
+  }
+}
+
+.float-left { float: left !important; }
+.float-right { float: right !important; }
+.photo-caption {
+    text-align: center;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+// bootstrap image classes
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
 }
+
 html {
     --bg: #FFF;
     --bg-secondary: #f8f8f8;
@@ -200,15 +234,4 @@ p code, li code {
   a:hover {
     color: var(--links);
   }
-}
-
-// bootstrap image classes
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
