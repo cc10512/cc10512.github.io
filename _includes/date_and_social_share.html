@@ -1,9 +1,13 @@
 <p class="post-date text-bold">
   {% if page.author %}
-    <a href="mailto: {{ site.email }}"><span class="text-bold">{{ page.author }}</span></a> / 
+    <a href="mailto: {{ site.email }}"><span class="text-bold">{{ page.author }}</span></a> /
   {% endif %}
-  {% if page.date %}
-    <span>{{ page.date | date: "%d %B %Y"}}</span>
+  {% if page.date_range %}
+    <span>{{ page.date_range }}</span>
+  {% else %}
+    {% if page.date %}
+      <span>{{ page.date | date: "%d %B %Y"}}</span>
+    {% endif %}
   {% endif %}
 </p>
 
