@@ -108,7 +108,7 @@ The walkway was also affected by terrain slips and while we couldn't go all the 
 %}
 
 {% include image url="https://lh3.googleusercontent.com/pw/ABLVV852ahurkcJCS9DrJmrwRP5pAHJV4acg6n1hjva93gDmQcrLUJ0AU9_sflqdzxGHKyIbLJqTp9H-gLipY7D8dcxb7Miub1c07jwkBVDG0SLrkpf-QZ0=w2400"
-  caption="Pohutukawa tree"
+  caption="Pōhutukawa tree"
   class="img-responsive"
 %}
 
