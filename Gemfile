@@ -8,7 +8,3 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "github-pages"
 end
-
-group :development do
-  gem "webrick", "~> 1.8"
-end
