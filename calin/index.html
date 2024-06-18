@@ -15,13 +15,10 @@ data-theme: dark
     <base href="https://www.cascaval.us/" target="_blank">
 
     <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <!--
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous">
-    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="{{ "calin/header.css" | relative_url }}" rel="stylesheet">
   </head>
@@ -67,73 +64,96 @@ data-theme: dark
       </div>
     </div>
 
-    <div class="container marketing">
+    <div class="container marketing align-items-center">
 
       <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-md-4">
+      <div class="row h-100">
+        <div class="card col-lg-4 border-0">
+          <div class="mb-auto mx-3">
           <h2>Work</h2>
-          <p>C&#259;lin is Director of Engineering at Google Research, an
-            IEEE Fellow and ACM Senior Member.
-            His research interests span all aspects of parallel
-            systems -- applications, languages, compilers and runtime
-            systems. He is passionate about building high performance,
-            efficient, and scalable systems.
-            <!--
-            by developing new programming models for parallel,
-            distributed, and heterogeneous systems, designing and
-            architecting the entire software stack and remove
-            inefficiencies by co-designing software and hardware
-            architectures.--> </p>
-          <p><a class="btn btn-default" href="https://www.linkedin.com/in/cascaval" role="button" target="_blank">LinkedIn profile &raquo;</a></p>
-        </div><!-- /.col-md-4 -->
-        <div class="col-md-4">
+            <p>C&#259;lin is Director of Engineering
+            at <a href="https://research.google/people/calin-cascaval/"
+            target="_blank">Google Research</a>, an IEEE Fellow and
+            ACM Senior Member.  His research interests span all
+            aspects of parallel systems -- applications, languages,
+            compilers and runtime systems. He is passionate about
+            building high performance, efficient, and scalable
+            systems.<br/>
+            C&#259;lin serves as President of
+            the <a href="https://www.racovita-foundation.org"
+                   target="_blank">Emil G. Racovi&#355;&#259; Foundation for
+                Science and Exploration in Extreme Environments</a>.</p>
+          </div>
+          <div class="align-self-end">
+            <a class="btn btn-outline-dark"
+            href="https://www.linkedin.com/in/cascaval" role="button"
+               target="_blank">LinkedIn profile &raquo;</a>
+          </div>
+        </div><!-- /card .col-lg-4 -->
+        <div class="card col-lg-4 border-0">
+          <div class="mb-auto mx-3">
           <h2>Resume</h2>
           <p>C&#259;lin enjoys good challenges, and at the same time,
           he believes that one must take time to make an impact. He
           is actively <a href="calin/cv.html#service">participating</a> in
           the community through student mentoring, academic
-          collaborations, and conference organization.</p>
-          <p><a class="btn btn-default" href="calin/resume.pdf"
-			    role="button">Resume (PDF) &raquo;</a>
-            <a class="btn btn-default" href="calin/cv.html" role="button">Full CV &raquo;</a></p>
-        </div><!-- /.col-md-4 -->
-        <div class="col-md-4">
-          <h2>Publications</h2>
-          <p>C&#259;lin's work and collaboration has resulted in over 50 peer reviewed <a href="calin/cv.html#publications">publications</a> and over 35 <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&TERM1=cascaval&FIELD1=INNM&co1=AND&TERM2=&FIELD2=&d=PTXT" target="_blank">granted patents</a>.</p>
-          <p><a class="btn btn-default" href="https://scholar.google.com/citations?user=ezEWSZ0AAAAJ" role="button" target="_blank">Google Scholar &raquo;</a></p>
-        </div><!-- /.col-md-4 -->
+            collaborations, and conference organization.</p>
+          </div>
+          <div class="align-self-end">
+            <a class="btn btn-outline-dark" href="calin/resume.pdf"
+               role="button">Resume (PDF) &raquo;</a>
+            <a class="btn btn-outline-dark" href="calin/cv.html"
+               role="button">Full CV &raquo;</a>
+          </div>
+        </div><!-- /card .col-lg-4 -->
+        <div class="card col-lg-4 border-0">
+          <div class="mb-auto mx-3">
+            <h2>Publications</h2>
+            <p>C&#259;lin's work and collaboration has resulted in over
+              50 peer
+              reviewed <a href="calin/cv.html#publications">publications</a>
+              and over
+              35 <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&TERM1=cascaval&FIELD1=INNM&co1=AND&TERM2=&FIELD2=&d=PTXT"
+                    target="_blank">granted patents</a>.</p>
+          </div>
+          <div class="align-self-end">
+            <a class="btn btn-outline-dark"
+               href="https://scholar.google.com/citations?user=ezEWSZ0AAAAJ"
+               role="button" target="_blank">Google Scholar &raquo;</a>
+          </div>
+        </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
+
       <hr/>
 
       <div class="row">
-        <div class="col-md-4 centered">
-          <img class="img-circle" src="/assets/images/calin/Family_s.jpg"
+        <div class="col-lg-4 centered">
+          <img class="rounded-circle" src="/assets/images/calin/Family_s.jpg"
 		       alt="family" width="140" height="140" />
           <h2>Family</h2>
           <p>Pictures for the family (password protected).</p>
-          <p><a class="btn btn-default" href="https://poze.cascaval.us/" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-md-4 -->
-        <div class="col-md-4 centered">
-          <img class="img-circle" src="/assets/images/calin/Cameras_s.jpg"
+          <p><a class="btn btn-outline-dark" href="https://poze.cascaval.us/" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 centered">
+          <img class="rounded-circle" src="/assets/images/calin/Cameras_s.jpg"
 			   alt="photo" width="140" height="140" />
           <h2>Photography</h2>
           <p>A sample of my shared photographs on 500px.</p>
-          <p><a class="btn btn-default" href="http://500px.com/CalinCascaval" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-md-4 -->
-        <div class="col-md-4 centered">
-          <img class="img-circle" src="/assets/images/calin/GadValley_s.jpg"
+          <p><a class="btn btn-outline-dark" href="http://500px.com/CalinCascaval" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 centered">
+          <img class="rounded-circle" src="/assets/images/calin/GadValley_s.jpg"
                alt="outdoors" width="140" height="140" />
           <h2>Outdoors</h2>
           <p class="centered">We enjoy nature in all seasons.</p>
-          <p class="centered"><a class="btn btn-default" href="calin/outdoors.html" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-md-4 -->
+          <p class="centered"><a class="btn btn-outline-dark" href="calin/outdoors.html" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
       <div class="row">
         <div class="col centered">
           <p><a href="https://en.wikipedia.org/wiki/Silver_fern_flag#/media/File:Silver_fern_flag.svg">
-              <img class="img-circle"
+              <img class="rounded-circle"
                    src="/assets/images/blog/Silver_fern_flag.svg"
                    alt="Silver Fern flag by Bamse under CC BY-SA 3.0"
                    width="140" />
@@ -141,24 +161,21 @@ data-theme: dark
           <h2>New Zealand Journey</h2>
           <p class="centered">A blog of our new adventures on the other side
           of the world.</p>
-          <p class="centered"><a class="btn btn-default" href="calin/blog.html" role="button">View details &raquo;</a></p>
+          <p class="centered"><a class="btn btn-outline-dark" href="calin/blog.html" role="button">View details &raquo;</a></p>
         </div>
       </div>
 
       <hr class="featurette-divider">
       <footer>
-      <p>&copy; 1993-2023 {{ site.author }} &middot; <a href="mailto:{{ site.email }} ">Contact</a></p>
+      <p>&copy; 1993-2024 {{ site.author }} &middot; <a href="mailto:{{ site.email }} ">Contact</a></p>
       </footer>
 
     </div><!-- /.container -->
 
-	{% include toggle_theme_js.html %}
+    {% include toggle_theme_js.html %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
-    -->
   </body>
 </html>
