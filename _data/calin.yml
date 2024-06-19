@@ -17,7 +17,7 @@
 - card: publications
   title: "Publications"
   body: "Călin's work and collaboration has resulted in over
-         50 peer reviewed <a href='calin/cv.html#publications'>publications</a>
+         50 peer reviewed <a href='/calin/cv.html#publications'>publications</a>
          and over 35 <a href='http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=0&f=S&l=50&TERM1=cascaval&FIELD1=INNM&co1=AND&TERM2=&FIELD2=&d=PTXT' target='_blank'>granted patents</a>."
   link: "https://scholar.google.com/citations?user=ezEWSZ0AAAAJ"
   linkname: "Google Scholar"
@@ -26,16 +26,16 @@
   title: "Resume"
   body: "Călin enjoys good challenges, and at the same time,
          he believes that one must take time to make an impact. He
-         is actively <a href='calin/cv.html#service'>participating</a> in
+         is actively <a href='/calin/cv.html#service'>participating</a> in
          the community through student mentoring, academic
          collaborations, and conference organization."
-  link: "calin/cv.html"
+  link: "/calin/cv.html"
   linkname: "Full CV"
 
 - card: blog
   title: "Blog"
   body: "A blog of our new adventures on the other side of the world."
-  link: "calin/blog.html"
+  link: "/calin/blog.html"
   linkname: "View details"
   image: "/assets/images/blog/Silver_fern_flag.svg"
   imgalt: "Silver Fern flag by Bamse under CC BY-SA 3.0"
@@ -51,7 +51,7 @@
 - card: photography
   title: "Photography"
   body: "A sample of my shared photographs on 500px."
-  link: "http://500px.com/CalinCascaval"
+  link: "https://500px.com/CalinCascaval"
   linkname: "View details"
   image: "/assets/images/calin/Cameras_s.jpg"
   imgalt: photos
