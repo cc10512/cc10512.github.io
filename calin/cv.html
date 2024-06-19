@@ -1,64 +1,20 @@
-<head>
-<html>
-<head>
-<TITLE> C&#259;lin Ca&#351;caval's Curriculum Vitae</title>
+---
+title: Călin Cașcaval's Curriculum Vitae
+brand: G. Călin Cașcaval Curriculum Vitae
+css: /assets/css/cv.css
+data-theme: dark
+---
 
-<META http-equiv="Content-Style-Type" content="text/css">
-<style type="text/css">
-<!--
- body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        line-height: 1.586;
-        color: rgb(50, 50, 50);
-        font-weight: 400;
- }
- a {
-  font-weight: bold;
-   text-decoration: none;
- }
- a.conf {
-  font-weight: normal;
- }
- a.title {
-  font-style: italic;
-  font-weight: bold;
- }
- a:link {color: #168BD0;}
+<!DOCTYPE html>
+<html lang="en">
+  {% include calin_head.html %}
 
-# .cvfull { display: none; }
- .cv2page { display: none; }
- .position { font-size: large; font-style: italic; }
- td.heading { padding-left: 20pt; }
- td.posdate { align: 'right'; }
- td.poscompany { padding-left: 40pt; }
- td.possummary { padding-left: 40pt; padding-top: 1em; colspan: 2; }
-# .position:after { content: attr("<br/>");}
+  <body>
+    {% include header.html %}
 
-@page { margin: 15mm 25mm 25mm 20mm; }
-@media print {
-    body { font-size: 10px; }
-    td.heading { padding-left: 0pt; }
-    td.posdate { align: 'right'; font-size: 10px; }
-    td.poscompany { padding-left: 20pt; font-size: 10px; }
-    td.possummary { padding-left: 20pt; padding-top: 1em;
-                    colspan: 2; font-size: 10px; }
-    h2 { font-size: 14px; }
-    a { font-weight: bold; color: black; text-decoration: none; }
-    a:link {color: black; }
-    a.title { font-style: italic; color: black; text-decoration: none; }
-    a.conf { font-weight: normal; color: black; text-decoration: none; }
-    .position { font-style: italic; font-size: 12px; }
-    address { font-size: 10px; }
-    .office { font-size: 10px; }
-    .acmdigitizer { display: none; }
-}
-
--->
-</style>
-</head>
-
-
-<body>
-<table border="0" width="100%">
+<main>
+<div class="container mt-5 pt-5 gt-5">
+<table border="0" class="mt-5 pt-5 gt-5" width="100%">
 
 <tr><td valign="top"><h1>G. C&#259;lin Ca&#351;caval</h1></td>
 <!--
@@ -89,7 +45,7 @@ Barefoot Networks<br/>
 4750 Patrick Henry Dr., Santa Clara, CA, 95054<br/>
 -->
 10 Madden Street, CBD, Auckland, New Zealand, 1010<br/>
-Work email:<a href="mailto:cascaval@google.com">cascaval@google.com</a><br/>
+Work email: <a href="mailto:cascaval@google.com">cascaval@google.com</a><br/>
 Personal Email: <a href="mailto:cascaval@acm.org">cascaval@acm.org</a><br/>
 LinkedIn: <a href="https://www.linkedin.com/in/cascaval">https://www.linkedin.com/in/cascaval</a>
 </address>
@@ -143,7 +99,7 @@ LinkedIn: <a href="https://www.linkedin.com/in/cascaval">https://www.linkedin.co
 
 <p>
 Dr. C&#259;lin Ca&#351;caval is Director of Engineering at Google
-Research, leading research in scalable distributed systems.<br/>  He
+DeepMind, leading research in scalable distributed systems.<br/>  He
 is an experienced technical executive with strategic vision and proven
 team building, research and product delivery of computer systems. He
 identified industry trends, defined, built, and delivered first of a
@@ -152,7 +108,7 @@ compiler and networking stack (at Barefoot Networks), the first mobile
 heterogeneous computing runtime and parallel browser (at Qualcomm
 Research), system software for the Blue Gene family of supercomputers
 and the first UPC compiler to scale to hundreds of thousands of
-processors, (at IBM Research).  C&#259;lin has over 50 peer-reviewed
+processors (at IBM Research).  C&#259;lin has over 50 peer-reviewed
 publications, 38 awarded patents. He is an IEEE Fellow and an ACM
 Senior Member.
 </p>
@@ -165,15 +121,20 @@ Senior Member.
 <table width='100%'>
   <tr>
     <td class="heading"><span class="position">Director of Engineering,
+          Google DeepMind</span>
+    </td><td class="posdate">May 2024 - Present</td>
+  </tr>
+  <tr>
+    <td class="heading"><span class="position">Director of Engineering,
           Google Research</span>
-    </td><td class="posdate">February 2020 - Present</td>
+    </td><td class="posdate">February 2020 - May 2024</td>
   </tr>
   <tr><td colspan='2' class="poscompany"><a href="https://google.com"
                                 target="_blank"> Google LLC.</a>,
                                 Auckland, New Zealand</td>
   </tr>
   <tr><td colspan='2' class="possummary">Leading research in scalable
-      distributed systems.</td>
+      distributed systems, ML compilers, and ML systems for improved efficiency.</td>
   </tr>
 <tr><td colspan='2'><p/></td></tr>
 
@@ -268,9 +229,9 @@ software.</td>
   href="https://en.wikipedia.org/wiki/PERCS">PERCS
   (DARPA HPCS)</a> Compilers team. As part of this effort we explored
   and developed a number of technologies to improve programmer
-  productivity:
-
-<ul>
+  productivity: <span class="cv2page">Continuous Program Optmization (CPO), the <a href="http://www.alphaworks.ibm.com/tech/upccompiler">xlUPC
+    compiler</a>, math libraries for HPC, performance counter design in the IBM pSeries processors, OS tracing infrastructure, and application monitoring.</span>
+<ul class="cvfull">
 <li> Continuous Program Optmization (CPO): combine static and dynamic
     compilation and allow statically compiled languages to be executed using
     a managed runtime, in order to continuously monitor and adapt to changes
@@ -302,8 +263,8 @@ software.</td>
 
 </dd><p>
 <dd> Led exploratory projects in parallel programming models and
-  parallel languages to improve programmer productivity:
-  <ul>
+  parallel languages to improve programmer productivity: <span class="cv2page">Asynchronous execution, Transactional Memory, and Thread Level Speculation</span>
+  <ul class="cvfull">
   <li>Asynchronous execution to improve parallel execution: load
   balancing through work stealing, performance portability,
   acceleration support</li>
@@ -378,7 +339,7 @@ paper</a>)</span>. </li>
         prediction, data locality, and parallel programming models.
 </td>
 </tr>
-<tr><td colspan='2' class="possummary">
+<tr class="cvfull"><td colspan='2' class="possummary">
       <ul>
 <li> Extended the Polaris parallelizing compiler with code generation
 passes for <a
@@ -418,7 +379,7 @@ Responsible for the design, implementation, and testing of systems
 targeted towards knowledge gathering and sharing for project management.
 </td>
 </tr>
-<tr><td colspan='2' class="possummary">
+<tr class="cvfull"><td colspan='2' class="possummary">
 <ul>
 
 <li>Enterprise Engineering Knowledge Base (EEKB), a project
@@ -446,7 +407,7 @@ Visual Basic, Oracle, and OLE on a Windows/Windows NT platform.
 -->
 </li>
 </ul>
-	Additional responsibilities included system administrator for
+  Additional responsibilities included system administrator for
 a computer network consisting of Sun and IBM-PC computers.
 </td></tr>
 <tr><td colspan='2'><p/></td></tr>
@@ -465,7 +426,7 @@ a computer network consisting of Sun and IBM-PC computers.
     Conducted research in communication scheduling algorithms and
     software verification.</td>
 </tr>
-<tr><td colspan='2' class="possummary">
+<tr class="cvfull"><td colspan='2' class="possummary">
 <ul>
     <li> Designed and implemented a Software Project Model which
 provides a customizable view of a project for each team involved in
@@ -505,9 +466,9 @@ DEC-Risc, DEC-Vax, PC-DOS.
           Automation), Cluj-Napoca, Romania</td>
 </tr>
 <tr><td colspan='2' class="possummary">
-    Designed and developed production software.</td>
+    Designed and developed production software for testing equipment.</td>
 </tr>
-<tr><td colspan='2' class="possummary">
+<tr class="cvfull"><td colspan='2' class="possummary">
 <ul>
   <li>Designed and developed an object-oriented Digital
     Components Simulator to be used in a Digital Boards Testing.
@@ -536,16 +497,16 @@ Technical Report UIUCDCS-R-2000-2167.
 MS in Computer Science, <a href="http://www.cs.wvu.edu/">West Virginia University</a>,
 Morgantown, WV, May 1995
 <div class="cvfull">
-	Thesis Title: Optimizing Communication in Parallel Compilers
+  Thesis Title: Optimizing Communication in Parallel Compilers
 </div>
 </blockquote>
 
 <blockquote>
 MS in Computer Engineering,
 <a href="http://www.utcluj.ro/utcn/divisions.html">Technical
-	University Cluj-Napoca</a>, Romania, June 1991
+  University Cluj-Napoca</a>, Romania, June 1991
 <div class="cvfull">
-	Thesis Title: Sistem pentru Analiza si Recunoasterea
+  Thesis Title: Sistem pentru Analiza si Recunoasterea
 Semnalului Vocal (Speech Analysis and Recognition System)
 </div>
 </blockquote>
@@ -620,15 +581,24 @@ Semnalului Vocal (Speech Analysis and Recognition System)
    Scholar citations</a>: 4750 (as of July 20, 2021).</p>
 
 <div class="cv2page">
-Five most relevant recent publications:
+Most relevant publications:
 <ol>
+
+<li><a class='title'
+       href='https://dl.acm.org/citation.cfm?id=3230582'> p4v:
+       practical verification for programmable data planes</a><br/>Jed
+       Liu, William Hallahan, Cole Schlesinger, Milad Sharif,
+       Jeongkeun Lee, Robert Soule, Han Wang, Calin Cascaval, Nick
+       McKeown, Nate Foster<br/>
+  <a href='http://conferences.sigcomm.org/sigcomm/2018/'>SIGCOMM
+    2018</a>, Budapest, Hungary, Aug 2018.</li>
 
 <li><a class='title'
  href="http://dx.doi.org/10.1145/2576195.2576209">Deoptimization for
  dynamic language JITs on typed, stack-based virtual
  machines</a><br/>Madhukar N. Kedlaya, Behnam Robatmili, Calin
  Cascaval, Ben Hardekopf<br/>
-<a class='conf' href="http://vee2014.cs.technion.ac.il/">Virtual Execution Environments (VEE 2014)</a>, Mar 2014. <i>Best Paper Award</i>.<br/><br/></li>
+<a class='conf' href="http://vee2014.cs.technion.ac.il/">Virtual Execution Environments (VEE 2014)</a>, Mar 2014. <i>Best Paper Award</i>.</li>
 
 <li><a class='title' href="http://dx.doi.org/10.1145/2517327.2442543"
 title="ZOOMM: a parallel web browser engine for multicore mobile
@@ -638,7 +608,7 @@ Piekarski, Mehrdad Reshadi, Behnam Robatmili, Michael Weber, and
 Vrajesh Bhavsar<br/> Proceedings of <a class='conf'
 href="http://ppopp2013.ics.uci.edu">The 18th ACM SIGPLAN Symposium on
 Principles and Practice of Parallel Programming (PPoPP 2013)</a>,
-Shenzhen, China, Feb 2013.<br/><br/></li>
+Shenzhen, China, Feb 2013.</li>
 
 <li><a class='title'
 href="http://doi.acm.org/10.1145/1504176.1504181">
@@ -647,7 +617,7 @@ Milind Kulkarni, Martin Burtscher, R. Inkulu, Keshav Pingali, Calin
 Cascaval <br/> Proceedings of the <a class='conf'
 href='http://ppopp09.rice.edu'>14th ACM SIGPLAN Symposium on
 Principles and Practice of Parallel Programming, PPoPP'09</a>,
-Raleigh, NC, February 2009 <br/><br/></li>
+Raleigh, NC, February 2009.</li>
 
 <li><!-- ACM DL Article 1400228-->
 <div class="acmdlitem"
@@ -659,7 +629,7 @@ toy?" class="title">Software transactional memory: why is it only a research
 toy?</a><br/>
 Calin Cascaval, Colin Blundell, Maged Michael, Harold W. Cain, Peng
   Wu, Stefanie Chiras, Sid Chatterjee<br/>
-Communications of the ACM, Nov 2008</div><br/></li>
+Communications of the ACM, Nov 2008.</div></li>
 
 <li><a class='title'
 href="http://iacoma.cs.uiuc.edu/iacoma-papers/isca06_bulk.pdf">Bulk
@@ -668,8 +638,7 @@ Luis Ceze, James Tuck, Calin Cascaval, and Josep Torrellas<br/>
 Proceedings of the <a class='conf'
 href="http://www.ece.neu.edu/conf/isca2006/">33rd Annual International
 Symposium on Computer Architecture, ISCA 2006</a>, Boston, MA, June
-2006
-<br/><br/></li>
+2006.</li>
 </ol>
 
 </div>
@@ -1466,7 +1435,10 @@ Organizing Committee Member for PPoPP, PACT, LCPC, and SBAC-PAD.<br/>
 Panelist for NSF.<br/>
 Reviewer for numerous journals and technical conferences.
 </div>
-<hr/>
 
-</body>
+</div> <!-- main container -->
+
+<hr/>
+</main>
+  </body>
 </html>

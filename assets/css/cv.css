@@ -1,0 +1,60 @@
+body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height: 1.586;
+        /* color: rgb(50, 50, 50); */
+        font-weight: 400;
+        background-color: #1f242A;
+        color: #adb5bd;
+ }
+a {
+  font-weight: bold;
+   text-decoration: none;
+ }
+a .conf {
+  font-weight: normal;
+ }
+a .title {
+  font-style: italic;
+  font-weight: bold;
+ }
+a:link {color: #91a7ff;}
+
+.cv2page { display: none; }
+.position { font-size: large; font-style: italic; }
+
+td .heading { padding-left: 20pt; }
+td .posdate { align: 'right'; }
+td .poscompany { padding-left: 40pt; }
+td .possummary { padding-left: 40pt; padding-top: 1em; colspan: 2; }
+/* .position:after { content: attr("<br/>");} */
+
+@page { margin: 15mm 25mm 25mm 20mm; }
+@media print {
+    body {
+      font-size: 10px;
+      background-color: #ffffff;
+      color: #333333;
+      line-height: 1.2;
+    }
+    header {
+      display: none;
+    }
+    .cvfull { display: none; }
+    .cv2page { display: block; }
+    td .heading { padding-left: 0pt; }
+    td .posdate { align: 'right'; font-size: 10px; }
+    td .poscompany { padding-left: 20pt; font-size: 10px; }
+    td .possummary { padding-left: 20pt; padding-top: 1em;
+                    colspan: 2; font-size: 10px; }
+    h1 { font-size: 24px; }
+    h2 { font-size: 14px; }
+    blockquote { padding: 0 0 0 0;}
+    a { font-weight: bold; color: black; text-decoration: none; }
+    a:link {color: black; }
+    a .title { font-style: italic; color: black; text-decoration: none; }
+    a .conf { font-weight: normal; color: black; text-decoration: none; }
+    .position { font-style: italic; font-size: 12px; }
+    address { font-size: 10px; }
+    .office { font-size: 10px; }
+    .acmdigitizer { display: none; }
+}
+
