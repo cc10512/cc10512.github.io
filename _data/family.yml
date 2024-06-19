@@ -1,0 +1,21 @@
+- person: Călin
+  image: /assets/images/www/Calin.jpg
+  descr: "Călin built his own corner on this site."
+  link: /calin
+  linkname: Details
+
+- person: Anca
+  image: /assets/images/www/Anca.jpg
+  descr: "Anca has a tiny Internet presence and keeps it private."
+
+- person: Dan
+  image: /assets/images/www/Dan.jpg
+  descr: "Dan has the skills to generate his own site."
+  link: "https://dan.cascaval.us"
+  linkname: "View site"
+
+- person: Victor
+  image: /assets/images/www/Victor.jpg
+  descr: "Victor is always happy to chat or text."
+  link: mailto:victor@cascaval.us
+  linkname: Contact him

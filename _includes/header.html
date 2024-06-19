@@ -1,0 +1,36 @@
+<header class="site-banner p-0" role="banner">
+  <div class="navbar bg-dark fixed-top"
+       data-bs-theme="dark">
+  <nav class="navbar navbar-expand-md px-3 w-100"
+       aria-label="Main nav">
+    <a class="navbar-brand" href="#">{{ page.brand }}</a>
+    <div id="bd-navbar-toggle">
+      <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#homenav"
+              aria-controls="homenav"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div id="homenav" class="homemenu collapse navbar-collapse flex-row-reverse">
+      <ul class="navbar-nav ms-auto mt-1 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link"
+             href="https://www.cascaval.us">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:{{ site.email }}">Contact</a>
+        </li>
+        <!--
+      <li class="nav-item">
+              {% include toggle_theme_button.html %}
+            </li>
+          -->
+      </ul>
+    </div>
+  </nav>
+  </div>
+</header>

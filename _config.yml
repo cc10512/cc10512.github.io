@@ -3,7 +3,7 @@ author: Călin Caşcaval
 email: cascaval@acm.org
 url: https://www.cascaval.us/
 description: > # description of the site (multiple lines allowed)
-  A record of our adventures in Aotearoa (the land of the long white cloud).
+  A record of our adventures in Aotearoa (the land of the long white cloud) and other beautiful places.
 permalink: /:slug
 
 feed_items: 5

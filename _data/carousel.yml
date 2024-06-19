@@ -1,0 +1,34 @@
+- slide: "Welcome!"
+  photo: /assets/images/www/Family_11.jpg
+  alt: Family
+
+- slide: "View from 10000 ft"
+  photo: /assets/images/www/Maui_Haleakala.jpg
+  alt: "Haleakala, Maui, Hawaii"
+  subtitle: "Haleakala, Maui, 2016"
+
+- slide: "European Vacation"
+  photo: /assets/images/www/BCN_PlazaEspana.jpg
+  alt: "Barcelona, Spain"
+  subtitle: "Barcelona, Plaza de Espana, 2016"
+
+- slide: "Pacific Sunset"
+  photo: /assets/images/www/SunsetAlpine.jpg
+  alt: "Palo Alto, CA"
+  subtitle: "From Alpine Road, CA, 2016"
+
+- slide: "Pelicans burping"
+  photo: /assets/images/www/Pelicans_1s.jpg
+  alt: Pelicans, Pescadero, CA
+  subtitle: "Pescadero, CA, 2016"
+
+- slide: "Nature Art"
+  photo: /assets/images/www/BryceCanyon.jpg
+  alt: "Bryce Canyon, UT"
+  subtitle: "Bryce Canyon, UT, 2017"
+
+- slide: "Sunset with Cairns"
+  photo: /assets/images/www/Cairns_1s.jpg
+  alt: Vancouver, Canada
+  subtitle: "Vancouver, Canada, 2018"
+
