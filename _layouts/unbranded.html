@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "en" }}"
+      class="html"
+      data-theme="{{ site.theme_config.appearance | default: "auto" }}">
+      {%- include head.html -%}
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+          <h1 class="post-title">{{ page.title }}</h1>
+          <p class="post-date text-bold">
+          <a href="mailto: {{ site.email }}"><span class="text-bold">{{ page.author }}</span></a>,
+          {% if page.date_range %}
+            <span>{{ page.date_range }}</span>
+          {% else %}
+            {% if page.date %}
+              <span>{{ page.date | date: "%-d %b %Y"}}</span>
+            {% endif %}
+          {% endif %}
+        </p>
+        {{ content }}
+      </div>
+    </main>
+
+  </body>
+</html>
