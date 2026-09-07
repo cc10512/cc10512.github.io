@@ -1,5 +1,9 @@
 <figure class="{{ include.class }}">
+  {%- if include.link -%}
+  <a href="{{ include.link | relative_url}}">
+  {%- else -%}
   <a href="{{ include.url | relative_url}}">
+  {%- endif -%}
     <img src="{{ include.url | relative_url }}"
   {% if include.alt %}
        alt="{{ include.alt }}"
