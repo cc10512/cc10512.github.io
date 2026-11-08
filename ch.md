@@ -7,3 +7,5 @@
 - [Disentis, Graubünden, Aug 14 -- 16, 2026](https://photos.app.goo.gl/cN7BCUASZvYRueTk9)
 - [Zug Lake, Aug 22, 2026](https://photos.app.goo.gl/6Xiuxjmiqq6DW2Wz5)
 - [Zug & Zugerberg, Aug 29, 2026](https://photos.app.goo.gl/57igvEXVTbBHQXrH9)
+- [Zurich, Oct 3, 2026](https://photos.app.goo.gl/1rgWkwLt2yQD1Cyz5)
+- [Zug, Fall 2026](https://photos.app.goo.gl/HHqVcQS2ebwJT68m8)
